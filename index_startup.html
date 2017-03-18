@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Launch a startup!</title>
+	<script type="text/javascript" src="startup_script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="startup_style.css">
+</head>
+<body>
+	<div id="top">
+		<figure>
+			<img src="speaker.png" alt="startup slogan loudspeaker">
+		</figure>
+		<h1>Startup generator</h2>
+		<h2>Create a slogan for your startup</h3>
+		<span id="hide">
+			<h4>Just press the button</h4>
+			<figure id="start" onclick="firstSlogan()">
+				<img src="play-button.png" alt="create a startup slogan">
+			</figure>
+		</span>
+	</div>
+	<div id="slogan">
+		<h2 id="first">Your startup's</h2>
+		<h2 id="second">Awesome slogan</h2>
+		<h2 id="third">May have been here</h2>
+		<figure id="refresh" onclick="sloganGenerate()">
+			<img src="reload-arrow.png" alt="create a new startup slogan">
+		</figure>
+	</div>
+</body>
+</html>
